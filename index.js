@@ -13,7 +13,7 @@ class BoardMember{
 
 let polishedBoardMember = new BoardMember("Mr. Polished", "New York", "law");
 
-class CEO extends BoardMember{
+class Ceo extends BoardMember{
   hireEmployee() {return `Welcome aboard!`}
 }
 
