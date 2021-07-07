@@ -48,7 +48,7 @@ describe('boardMembers', function() {
   })
 
   describe('sayHi()', function() {
-    it('returns "Hi, my name is <name>. I am from <homestate>, and I was trained in <training>."', function() {
+    it('returns "Hi, my name is <name>. I am from <homeState>, and I was trained in <training>."', function() {
       expect(polishedBoardMember.sayHi()).to.equal("Hi, my name is Mr. Polished. I am from New York, and I was trained in law.")
       expect(backSlappingGene.sayHi()).to.equal("Hi, my name is Mr. Gene. I am from Delaware, and I was trained in business.")
       expect(backSlappingGene.sayHi).to.equal(polishedBoardMember.sayHi)
@@ -59,7 +59,7 @@ describe('boardMembers', function() {
 describe('Ceo class', function() {
   let ceo
   let polishedBoardMember
-  
+
   before(() => {
     ceo = new Ceo("Mr. Ceo", "South Carolina", "business")
     polishedBoardMember = new BoardMember("Mr. Polished", "New York", "law")
